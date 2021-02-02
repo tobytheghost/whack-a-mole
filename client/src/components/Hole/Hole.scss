@@ -1,0 +1,17 @@
+.hole {
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+  margin: 1rem;
+  border: 0.5rem solid #000;
+  display: flex;
+  place-items: center;
+  place-content: center;
+  &__mole {
+    width: 8rem;
+    height: 8rem;
+    background-color: brown;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+}
